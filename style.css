@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    background-image: url("foodBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    height: 500px;
+    border-radius: 15px;
+    backdrop-filter: blur(5px);
+    background-color: rgba(201, 112, 10, 0.425);
+    transition: 0.3s;
+}
+
+.table-wrapper:hover{
+    box-shadow: 0 0 15px 10px olivedrab,
+                0 0 15px 10px orangered;    
+}
+
+tr, th, td {
+    border: 1px solid #000;
+    text-align: center;
+}
+
+.food-name {
+    transition: 0.3s;
+}
+
+.food-name a {
+    text-decoration: none;
+    color: #000;
+}
+
+.food-name:hover {
+    background-color: #FFA6007C;
+}
+
+table {
+    width: 100%;
+    font-size: 25px;
+}
+
+#CORNER-BOX1 {
+    border-radius: 11px 0 0 0;
+}
+
+#CORNER-BOX2 {
+    border-radius: 0 11px 0 0;
+}   
+
+#CORNER-BOX3 {
+    border-radius: 0 0 0 11px;
+}
+
+#CORNER-BOX4 {
+    border-radius: 0 0 11px 0;
+}
+
+
